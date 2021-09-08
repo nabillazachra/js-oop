@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weekly Assignment Dumbways.id</title>
+	<link rel="shortcut icon" href="https://media-exp1.licdn.com/dms/image/C510BAQEFr75aNgMJbw/company-logo_200_200/0/1570814932621?e=2159024400&v=beta&t=PA3d03XyrwtJvSy3cCNuPfv6lBTO0BCKYhrljok2QDA">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="background: linear-gradient(90deg, hsla(39, 100%, 71%, 1) 0%, hsla(216, 100%, 62%, 1) 100%);">
+	<div class="main">
+		<div class="login card">
+			<h1>LOGIN</h1>
+			<form class="form" id="std-form">
+				<div>
+					<label for="username">Username</label>
+					<br clear="all">
+					<input type="username" name="username" placeholder="Type your username" required>
+				</div>
+				<div>
+					<label for="password">Password</label>
+					<input type="password" name="password" placeholder="Type your password" required>
+				</div>
+				<div class="notify">
+					<label>Forgot password?</label>
+				</div>
+				<div class="button">
+					<button type="submit" onclick="loginClick()">LOGIN</button>
+				</div>
+				<div class="sign">
+					<p>Or Sign In With</p>
+				</div>
+				<div class="platform">
+					<ul>
+						<li><a onclick="clickPlatform()" name="platform"><img src="https://image.flaticon.com/icons/png/512/4406/4406220.png"></a></li>
+						<li><a onclick="clickPlatform()" name="platform"><img src="https://image.flaticon.com/icons/png/512/145/145812.png"></a></li>
+						<li><a onclick="clickPlatform()" name="platform"><img src="https://image.flaticon.com/icons/png/512/2111/2111450.png"></a></li>
+					</ul>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

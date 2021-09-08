@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form Dumbways.id</title>
+	<link rel="shortcut icon" href="https://media-exp1.licdn.com/dms/image/C510BAQEFr75aNgMJbw/company-logo_200_200/0/1570814932621?e=2159024400&v=beta&t=PA3d03XyrwtJvSy3cCNuPfv6lBTO0BCKYhrljok2QDA">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="first">
+				<h1>FORM REGISTRATION</h1>
+			<div class="formulir">
+				<form id="formulir">
+					<div class="nama">
+						<label for="field-nama">Fullname</label>
+						<input type="text" name="field-nama" id="field-nama" placeholder="Input Fullname" required maxlength="65">
+					</div>
+          <div class="nik">
+						<label for="field-nik">NIK</label>
+						<input type="text" name="field-nik" id="field-nik" placeholder="Input NIK" maxlength="20" required>
+					</div>
+					<div class="ttl">
+						<label for="dob">Date of Birth</label>
+						<table width="100%">
+							<tr>
+								<td width="50%">
+									<input type="text" name="field-place" id="field-place" placeholder="Input Place of Birth" required>
+								</td>
+								<td width="50%">
+									<input type="date" name="field-date" id="field-date" required>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="phone">
+						<table width="100%">
+							<tr>
+								<td width="50%">
+								<label for="field-phone">Telephone</label>
+								<input type="number" name="field-phone" id="field-phone" placeholder="Input Phone Number">
+								</td>
+								<td width="50%">
+								<label for="partner">Partner</label>
+									<select id="partner">
+			                            <option>- Select Partner -</option>
+			                            <option>Outlet</option>
+			                            <option>Company</option>
+			                            <option>Individu</option>
+			                            <option>Merchant</option>
+			                        </select>    
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="address">
+						<label for="field-address">Address</label>
+						<textarea name="field-address" id="field-address"></textarea>
+					</div>
+					<div class="button-form">
+						<button id="btn-submit" class="btn-submit" onclick="addData(event)">Save</button>
+						<button type="reset">Reset</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="second">
+			<div class="data card">
+				<h1>DATA CUSTOMER</h1>
+				<div id="show-data">
+					
+				</div>
+			</div>
+			<div class="link">
+				<a href="index.html"><img src="https://image.flaticon.com/icons/png/512/154/154347.png" alt="logout"> Logout</a>
+			</div>
+		</div>
+	</div>
+	<script src="form-script.js"></script>
+</body>
+</html>

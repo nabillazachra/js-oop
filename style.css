@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+  	font-family: 'Noto Sans JP', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    background: #666;    
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #232323;
+}
+
+/* LOGIN STYLING */
+
+.login {
+	margin: auto;
+	width: 350px;
+	height: 550px;
+}
+
+.card {
+	box-shadow: 0 2px 4px 0 #333;
+	border-radius: 7px;
+	padding: 20px;
+	margin-top: 30px;
+	background-color: white;
+	width: max-content;
+	align-content: center;
+}
+
+.card h1 {
+	text-align: center;
+	margin-top: 10px;
+}
+
+input, select, textarea {
+	margin-top: 10px;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	resize: none;
+	height: 40px;
+}
+
+.notify {
+	margin-top: 5px;
+	font-size: 12px;
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+.button button {
+	margin: 10px auto;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 20px;
+	background: linear-gradient(90deg, hsla(39, 100%, 71%, 1) 0%, hsla(216, 100%, 62%, 1) 100%);
+	color: white;
+	font-weight: 100;
+  	transition: all 0.4s ease 0s;
+}
+
+.button button:hover {
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(6, 77, 158, 0.856);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(1, 88, 160, 0.57);
+    box-shadow: 5px 40px -10px rgba(4, 95, 170, 0.74);
+    transition: all 0.4s ease 0s;
+}
+
+.sign {
+	margin-top: 10px;
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.platform {
+	text-align: center;
+	margin-top: 20px;
+	word-spacing: 20px;
+}
+
+.platform ul > li > a > img {
+	width: 25px;
+	height: 25px;
+	border-radius: 10px;
+}
+
+.platform ul > li {
+	text-decoration: none;
+	display: inline;
+}
+
+/* FORM STYLING */
+
+.container {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+  	flex-wrap: wrap;
+  	flex-direction: row;
+}
+
+.first {
+	flex: 1 0 40%;
+	padding: 10px;
+}
+
+.second {
+	flex: 1 0 60%;
+	padding-left: 50px;
+	padding-right: 30px;
+	background: linear-gradient(90deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+	background-position: center;
+	background-size: cover;
+}
+
+.formulir input, select, textarea {
+	margin-top: 10px;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	resize: none;
+	height: 40px;
+}
+
+.formulir {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 20px;
+	width: 100%;
+}
+
+.first h1 {
+	text-align: center;
+	background: hsla(265, 53%, 29%, 1);
+	color: white;
+	padding: 10px;
+}
+
+.second h1 {
+	color: #8563FF;
+}
+
+.formulir .form .nama label{
+	font-size: 15;
+}
+
+#formulir div {
+	margin-top: 10px;
+}
+
+#field-address {
+	height: 100px;
+}
+
+.button-form {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.button-form .btn-submit, button[type=reset] {
+	width: 150px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: semi-bold;
+	color: white;
+	cursor: pointer;
+}
+
+.button-form .btn-submit {
+	background-color: #0860b3;
+}
+
+.button-form button[type=reset] {
+	background-color: black;
+}
+
+.button-form button:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.get-todo {
+	width: auto;
+	height: auto;
+}
+
+.data {
+	width: 100%;
+}
+
+.class-name {
+	margin-bottom: 20px;
+	margin-top: 80px;
+}
+
+.class-name div {
+	margin-bottom: 50px;
+}
+
+.link {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: right;
+}
+
+.link a {
+	text-decoration: none;
+	color: black;
+}
+
+.link img {
+	width: 30px;
+	height: 30px;
+}
+
+.image img {
+	margin-top: 30px;
+	width: 100%;
+  	height: 500px;
+}
+
+.btn-delete {
+	width: 30px;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: semi-bold;
+	color: white;
+	cursor: pointer;
+	background: red;
+	float: right;
+	margin-top: -30px;
+    margin-right: -15px;
+}
+
+@media(max-width : 1000px) {
+	.formulir, .data {
+		margin: 50px auto;
+		width: 350px;
+	}
+}
+
+@media(max-width : 320px) {
+	.formulir, .data {
+		margin: 50px auto;
+		width: 200px;
+	}
+}
